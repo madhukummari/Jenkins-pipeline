@@ -17,7 +17,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 echo "Some tests execution here..."
-                echo 1
+                echo "1"
             }
         }
     }
