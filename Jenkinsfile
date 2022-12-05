@@ -7,7 +7,11 @@ node {
     }
 
     stage("Test") {
+        echo "Some code compilation here..."
+    }
+
+    stage("Deploy") {
         echo "Some tests execution here..."
-        echo 1
+        echo "1"
     }
 }
